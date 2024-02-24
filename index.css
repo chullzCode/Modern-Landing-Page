@@ -98,12 +98,19 @@ html,body{
     /* background: #c9a60a; */
 }
 #hero-left .elem{
+    position: relative;
     cursor: default;
     height: 9vw;
     overflow: hidden;
     /* background-color: red; */
 }
+#hero-left .elem h1:nth-child(1){
+    top: 0;
+}
 #hero-left .elem h1{
+    position: absolute;
+    top: 100%;
+    left: 0;
     font-family: kajiro;
     line-height: 0.9;
     font-size: 11vw;
